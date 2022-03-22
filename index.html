@@ -20,7 +20,7 @@
     span
     time
     code
-    a
+    a - anchor
 -->
    <h1>Elementos Semanticos</h1> 
    <dl>
@@ -28,15 +28,88 @@
        <dd>- Muestra el texto subrayado</dd>
        <dd>- Sus etiquetas son: u y /u (Ambas obligatorias) </dd>
        <dd>     Ejemplo: <u>Hola. Buen dia</u></dd>
+
        <dt>i:</dt>
        <dd>- Muestra el texto marcado con un estilo en cursiva o italica</dd>
        <dd>- Sus etiquetas son: i y /i (Ambas obligatorias) </dd>
        <dd>Ejemplo: <i>Hola. Buen dia</i></dd>
+
        <dt>abbr</dt>
        <dd>- Representa una abreviación o acrónimo</dd>
        <dd>- Puede ampliar o describir la abreviatura</dd>
        <dd>Ejemplo: <p>I do <abbr title="Hypertext Markup Language">HTML</abbr></p> </dd>
 
+       <dt>b</dt>
+       <dd>- Indica que el texto debe ser representado</dd>
+       <dd>- Sus etiquetas son: "b" y "/b" (Ambas obligatorias).</dd>
+       <dd>- Puede contener: Texto y/o cero o más elementos</dd>
+       <dd>Ejemplo: <b>Hola. Buen dia</b></dd>
+
+       <dt>br:</dt>
+       <dd>- Produce un salto de línea en el texto</dd>
+       <dd>- Util para escribir un poema o una dirección</dd>
+       <dd>- No utilizar "br" para incrementar el espacio entre líneas de texto</dd>
+       <dd> Ejemplo: Mozilla Foundation<br>
+        1981 Landings Drive<br>
+        Building K<br>
+        Mountain View, CA 94043-0801<br>
+        USA
+        </dd>
+
+        <dt>cite:</dt>
+        <dd>- Marca una referencia a una fuente, o el autor de un texto citado</dd>
+        <dd>- Sus etiquetas son: "cite" y "/cite" (ambas obligatorias)</dd>
+        <dd>Ejemplo: <cite>Galileo</cite> dijo: "... y sin embargo, se mueve."</dd>
+
+        <dt>strong</dt>
+        <dd>- El elemento strong es el apropiado para marcar con especial énfasis las partes más importantes de un texto</dd>
+        <dd>- Sus etiquetas son: "strong" y "/strong" (ambas obligatorias) </dd>
+        <dd>Ejemplo: El dinero es importante pero <strong>la salud</strong> lo es más</dd>
+
+        <dt>s</dt>
+        <dd>- Muestra el texto tachado con una linea horizontal</dd>
+        <dd>- Sus etiquetas son: "s" y "/s" (Ambas obligatorias) </dd>
+        <dd>Ejemplo: <s>Hola. Buen dia.</s></dd>
+
+        <dt>sub</dt>
+        <dd>- Define un fragmento de texto que se debe mostrar en subindice</dd>
+        <dd>- Ejemplo: La fórmula química de agua: H<sub>2</sub>O</dd>
+
+        <dt>sup</dt>
+        <dd>- Define un fragmento de texto que se debe mostrar en subindice</dd>
+        <dd>Ejemplo: 2 <sup>2</sup></dd>
+
+        <dt>span</dt>
+        <dd> Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea</dd>
+        <dd>Ejemplo: <div style="border: 1px dotted blue;">
+            <h4>Ejemplo de div y span </h4>
+             <p>
+              Esto es un párrafo dentro de un div,
+               <span style="color: green;"> y esto un span dentro de un párrafo. </span>
+             </p>
+           </div></dd>
+
+           <dt>time</dt>
+           <dd>- Representa un periodo específico en el tiempo</dd>
+           <dd>- Puede representar uno de los siguientes contenido: <br>
+ 
+            · Una hora en formato de 24 horas <br>
+            · Una fecha precisa en el Calendario Gregoriano (con hora y zona horaria opcionales) <br>
+            · Un periodo de tiempo válido
+        </dd>
+        <dd>Ejemplo: El concierto empieza a las <time>20:00</time> </dd>
+
+        <dt>code</dt>
+        <dd>- Es el apropiado para marcar el código de un programa.</dd>
+        <dd>- Sus etiquetas son: "code" y "/code" (ambas obligatorias)</dd>
+        <dd>- Ejemplo: <code>
+            #include main() { for(;;) { printf ("Hello World!\n"); } } 
+           </code> </dd>
+
+           <dt>anchor</dt>
+           <dd>- Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página</dd>
+           <dd>Ejemplo: <a href="tel:+491570156">+49 157 0156</a></dd>
    </dl>
+
 </body>
 </html>

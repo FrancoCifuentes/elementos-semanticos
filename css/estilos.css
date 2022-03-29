@@ -1,0 +1,42 @@
+
+body {
+    background-color: #80C18E;
+}
+     
+hr{
+    color: white;
+}
+#indice{
+    background-color: #FFE97D ;
+}
+
+
+abbr{
+    color: blue;
+}
+
+    h1{
+       background-color:#FFFFAA ;
+        color: #A65387;
+    }
+
+        h2{
+            background-color: #6DB2D4;
+            color: rgb(59, 48, 48);
+        }
+ 
+        /* selector ID siempre se utiliza # */
+        /*imagen*/
+        #imagen_catamarca {
+        /*ancho*/
+        width: 550px;
+        /*alto*/
+        height: 300px;
+        }
+
+        #imagen_catamarca2{
+            width: 550px;
+            height: 300px;
+        }
+
+

@@ -10,9 +10,24 @@ hr{
     background-color: #FFE97D ;
 }
 
-
+#divisionalmin{
+    background-color: #DAEFC1;
+}
 abbr{
     color: blue;
+}
+table{
+    background-color: black;
+
+    width: 800px ;
+}
+td{
+    background-color: #DAEFC1;
+}th{
+    background-color: #91CB4E;
+}
+#titulos{
+    background-color: #6A9736;
 }
 
     h1{
